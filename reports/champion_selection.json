@@ -1,0 +1,7 @@
+{
+  "baseline_val_macro_f1": 0.3350238334379127,
+  "mobilenet_val_macro_f1": 0.9025624178119916,
+  "selected": "MobileNetV3-Small",
+  "rule": "higher validation macro-F1; tie goes to simpler baseline",
+  "deep_best_epoch": 12
+}

@@ -1,0 +1,9 @@
+{
+  "primary": "UCI RealWaste (https://archive.ics.uci.edu/dataset/908/realwaste)",
+  "secondary": "TrashNet (https://github.com/garythung/trashnet)",
+  "primary_path": "/kaggle/input/datasets/wafabila/wastesort-mini-dataset/realwaste_uci/realwaste-main/RealWaste",
+  "secondary_path": "/kaggle/input/datasets/wafabila/wastesort-mini-dataset/trashnet_images/dataset-resized",
+  "retrieved_on_utc": "2026-11-23T12:39:13.609336+00:00",
+  "license_primary": "CC BY 4.0 as shown by UCI; verify attribution and source holder conditions",
+  "license_secondary": "Review original TrashNet license for intended use"
+}

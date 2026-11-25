@@ -1,0 +1,7 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+python-multipart>=0.0.12
+pillow>=10.3
+numpy>=1.26
+pydantic>=2.7
+# Install torch + torchvision separately as a compatible pair (see README).

@@ -1,0 +1,6 @@
+{
+  "samples": 2390,
+  "five_class_subset_accuracy": 0.35439330543933056,
+  "fraction_prediction_outside_common_classes": 0.09163179916317991,
+  "warning": "5-class subset only; model still predicts 9 classes; TrashNet domain shift and label mapping limitations"
+}

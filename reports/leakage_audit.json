@@ -1,0 +1,8 @@
+{
+  "strategy": "stratified on distinct RGB pixel hashes; all exact RGB duplicate hashes in same split",
+  "exact_hash_overlap_across_splits": 0,
+  "duplicate_pixel_hash_extra_images": 0,
+  "conflicting_label_hashes_excluded": 0,
+  "source_group_disjoint": "not established (source IDs unavailable)",
+  "near_duplicate_audit": "not exhaustive"
+}

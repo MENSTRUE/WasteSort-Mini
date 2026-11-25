@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "classes": [
+    "Cardboard",
+    "Food Organics",
+    "Glass",
+    "Metal",
+    "Miscellaneous Trash",
+    "Paper",
+    "Plastic",
+    "Textile Trash",
+    "Vegetation"
+  ],
+  "images_usable": 4752,
+  "split_counts": {
+    "train": 3326,
+    "test": 713,
+    "val": 713
+  },
+  "realwaste_source": "UCI RealWaste (https://archive.ics.uci.edu/dataset/908/realwaste)",
+  "trashnet_source": "TrashNet (https://github.com/garythung/trashnet)",
+  "model_champion": "MobileNetV3-Small",
+  "baseline_val_macro_f1": 0.3350238334379127,
+  "mobilenet_val_macro_f1": 0.9025624178119916,
+  "final_test_accuracy": 0.9018232819074333,
+  "final_test_macro_f1": 0.9103354143536142,
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "sklearn": "1.6.1",
+  "cuda": true,
+  "timestamp_utc": "2026-11-23T12:57:41.739168+00:00",
+  "limits": [
+    "No verified source-group disjointness",
+    "RealWaste held-out split is image-level, with exact duplicate grouping",
+    "May misclassify compositional/multi-material waste",
+    "Predicted material != confirmed recyclability",
+    "TrashNet five overlapping classes are optional shifted domain"
+  ]
+}

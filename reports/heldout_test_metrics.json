@@ -1,0 +1,76 @@
+{
+  "champion": "MobileNetV3-Small",
+  "test_images": 713,
+  "test_accuracy": 0.9018232819074333,
+  "test_macro_f1": 0.9103354143536142,
+  "per_class": {
+    "Cardboard": {
+      "precision": 0.875,
+      "recall": 0.9130434782608695,
+      "f1-score": 0.8936170212765957,
+      "support": 69.0
+    },
+    "Food Organics": {
+      "precision": 0.9384615384615385,
+      "recall": 0.9838709677419355,
+      "f1-score": 0.9606299212598425,
+      "support": 62.0
+    },
+    "Glass": {
+      "precision": 0.9193548387096774,
+      "recall": 0.9047619047619048,
+      "f1-score": 0.912,
+      "support": 63.0
+    },
+    "Metal": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8813559322033898,
+      "f1-score": 0.8851063829787233,
+      "support": 118.0
+    },
+    "Miscellaneous Trash": {
+      "precision": 0.8857142857142857,
+      "recall": 0.8266666666666667,
+      "f1-score": 0.8551724137931035,
+      "support": 75.0
+    },
+    "Paper": {
+      "precision": 0.9558823529411765,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.9090909090909091,
+      "support": 75.0
+    },
+    "Plastic": {
+      "precision": 0.8367346938775511,
+      "recall": 0.8913043478260869,
+      "f1-score": 0.8631578947368421,
+      "support": 138.0
+    },
+    "Textile Trash": {
+      "precision": 0.9375,
+      "recall": 0.9375,
+      "f1-score": 0.9375,
+      "support": 48.0
+    },
+    "Vegetation": {
+      "precision": 0.984375,
+      "recall": 0.9692307692307692,
+      "f1-score": 0.9767441860465116,
+      "support": 65.0
+    },
+    "accuracy": 0.9018232819074333,
+    "macro avg": {
+      "precision": 0.9135457331770132,
+      "recall": 0.9082667481509209,
+      "f1-score": 0.9103354143536142,
+      "support": 713.0
+    },
+    "weighted avg": {
+      "precision": 0.903143576110064,
+      "recall": 0.9018232819074333,
+      "f1-score": 0.9018809166349131,
+      "support": 713.0
+    }
+  },
+  "NOTE": "image-level stratification with exact RGB duplicate grouping; unknown scene/source dependence"
+}
